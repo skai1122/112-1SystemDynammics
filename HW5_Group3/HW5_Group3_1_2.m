@@ -10,7 +10,7 @@ r = 6.25;
 p = 3*10^-3;
 T_f = 0.023;
 
-simout = sim('HW5_Q1_2sim.slx');
+simout = sim('HW5_Q1_2sl.slx');
 simRPM = simout.RPM;
 simCurrent = simout.current;
 Fload = simout.Fload;

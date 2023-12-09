@@ -2,7 +2,7 @@ clc
 clear all
 close all
 
-simout = sim('HW6_Q3_1sim.slx');
+simout = sim('HW6_Q3_1slx.slx');
 
 nonlinear_x = simout.non_x;
 nonlinear_phi = simout.non_phi;

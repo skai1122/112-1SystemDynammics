@@ -19,7 +19,7 @@ m = 1*10^-3;
 JL=Jb+m*l^2;
 KL = (mb*lb+m*l)*g;
 
-sim('HW5_Q1sim.slx');
+sim('HW5_Q1sl.slx');
 case1_1 = ans.velocity;
 clear r m JL KL ans
 %--m = 2*10^-3 ---%
@@ -28,7 +28,7 @@ m = 2*10^-3;
 JL=Jb+m*l^2;
 KL = (mb*lb+m*l)*g;
 
-sim('HW5_Q1sim.slx');
+sim('HW5_Q1sl.slx');
 case1_2 = ans.velocity;
 clear r m JL KL ans
 %---- CASE r = 10 -----%
@@ -38,7 +38,7 @@ m = 1*10^-3;
 JL=Jb+m*l^2;
 KL = (mb*lb+m*l)*g;
 
-sim('HW5_Q1sim.slx');
+sim('HW5_Q1sl.slx');
 case2_1 = ans.velocity;
 clear r m JL KL ans
 %--m = 2*10^-3 ---%
@@ -47,7 +47,7 @@ m = 2*10^-3;
 JL=Jb+m*l^2;
 KL = (mb*lb+m*l)*g;
 
-sim('HW5_Q1sim.slx');
+sim('HW5_Q1sl.slx');
 case2_2 = ans.velocity;
 clear r m JL KL ans
 
